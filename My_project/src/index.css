@@ -1,3 +1,30 @@
+/* --------------------Google fonts ----------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap")
+/* -------Tailwind ------------*/
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* --------------Main css------------- */
+* {
+  font-family: "Lato", sans-serif;
+}
+
+
+:root{
+  --first-color:hsl(353,100%,65%);
+  --title-color:hsl(244,24%,26%);
+  --text-color:hsl(244,16%,43%);
+  --body-color:hsl(258,60%,98%);
+  --container-color:#fff;
+
+  --body-font:'Lato',sans-serif;
+  --h1-font-size:2.25rem;
+  --h2-font-size:1.5rem;
+  --h3-font-size:1.25rem;
+  --normal-font-size:1rem;
+  --small-font-size:0.875rem;
+
+  /* Font weight */
+  --font-medium: 500;
+  
+}
